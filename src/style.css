@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #1e1e1e;
+}
+
+/* Navigation Bar */
+nav {
+  background: #fff;
+  padding: 15px 100px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: indianred;
+}
+
+/* Main Layout */
+main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px; /* Adjust to prevent overlap with fixed nav */
+}
+
+/* Hero Section */
+#header {
+  padding: 50px 100px;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  text-align: left;
+}
+
+#header img {
+  width: 450px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.info-container h1 {
+  font-size: 80px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.info-container h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.info-container mark {
+  background: none;
+  color: indianred;
+  font-weight: 700;
+}
+
+/* About Section */
+#about {
+  padding: 60px 100px;
+  background: #fff;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-indent: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Portfolio Section */
+#portfolio {
+  padding: 60px 100px;
+  text-align: center;
+}
+
+#portfolio h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+#portfolio ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+#portfolio a {
+  color: indianred;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+#portfolio a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+#contact {
+  padding: 60px 100px;
+  background: #fff;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+#contact ul {
+  list-style: none;
+  padding-top: 10px;
+}
+
+#contact li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#contact a {
+  color: indianred;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
